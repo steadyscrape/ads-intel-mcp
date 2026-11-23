@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.steadyscrape/ads-intel",
+  "title": "SteadyScrape Ads Intel",
+  "description": "Competitive ad research: Google Ads Transparency advertisers and ads, top TikTok ads. Read-only.",
+  "version": "1.0.0",
+  "websiteUrl": "https://steadyscrape.dev/ads-mcp",
+  "repository": {
+    "url": "https://github.com/steadyscrape/ads-intel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.steadyscrape.dev/ads/mcp"
+    }
+  ]
+}
